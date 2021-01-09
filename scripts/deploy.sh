@@ -21,4 +21,4 @@ cd WebContent
 echo "profesor" | sudo -S jar -cvf /opt/tomcat/webapps/Biblioteca.war *
 
 # Borramos todo para dejar la carpeta temporal limpia
-echo "profesor" | sudo -S rm -rf biblioteca-DAWEB
+echo "profesor" | sudo -S rm -rf /tmp/biblioteca-DAWEB
